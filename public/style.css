@@ -1,0 +1,125 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Шапка */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+}
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header .user-tools span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Карусель */
+.carousel {
+  padding: 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+.carousel-container {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+}
+.carousel-item {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  background: #ddd;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Каталог */
+.catalog {
+  padding: 20px;
+}
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.catalog-item {
+  height: 150px;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.show-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Подписки */
+.subscriptions {
+  padding: 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+.subscription-plans {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.plan {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* О нас */
+.about {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Поддержка */
+.support {
+  padding: 20px;
+  background: #f9f9f9;
+}
+.support form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Подвал */
+footer {
+  padding: 20px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
